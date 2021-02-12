@@ -53,3 +53,6 @@ gem 'bootstrap', '~> 5.0.0.beta1'
 
 #jquery for rails - bootstrap dependency
 gem 'jquery-rails'
+
+# devise for user authentification
+gem 'devise'
