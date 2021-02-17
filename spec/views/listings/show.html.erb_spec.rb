@@ -2,11 +2,17 @@ require 'rails_helper'
 
 RSpec.describe "listings/show", type: :view do
   before(:each) do
+    new_user = User.create!(
+      name: "Bob Marley",
+      email: "email@address.com",
+      password: "Password1"
+    )
     @listing = assign(:listing, Listing.create!(
       title: "Title",
       description: "MyText",
       price: "",
-      sold: false
+      sold: false,
+      user: new_user
     ))
   end
 
