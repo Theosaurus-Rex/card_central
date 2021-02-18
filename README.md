@@ -5,7 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+# Ruby version
+
+2.7.2
+
+# User Stories
+
+- As a user I want to be able to create an account and login so that I can create listings.
+
+- As a seller, I want to be able to upload an image on my listing.
+
+- As a buyer I want to be able to see an image for each listing.
 
 * System dependencies
 
