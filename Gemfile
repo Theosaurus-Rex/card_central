@@ -56,3 +56,7 @@ gem 'jquery-rails'
 
 # devise for user authentification
 gem 'devise'
+
+# add cloudinary gems for image uploading
+gem 'cloudinary'
+gem 'activestorage-cloudinary-service'
